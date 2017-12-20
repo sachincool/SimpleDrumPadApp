@@ -87,6 +87,6 @@ mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
     public void StopSound(View view) {
         if (mp.isPlaying()) mp.stop();
-        mp.release();
+      
     }
 }
